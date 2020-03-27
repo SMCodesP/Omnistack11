@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-web react-dom
+
+PATH: 
+  C:\Program Files (x86)\Falcon\MinGW\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\samue\AppData\Local\Programs\Python\Python38-32;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\samue\AppData\Local\Microsoft\WindowsApps;C:\Users\samue\AppData\Local\Yarn\bin;C:\Users\samue\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;;C:\Users\samue\AppData\Local\Programs\Python\Python38-32;C:\Users\samue\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\samue\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141292:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:721:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:481:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "omnistack11",
+    "version": "0.0.0",
+    "description": "No description",
+    "author": null,
+    "private": true,
+    "main": "node_modules/expo/AppEntry.js",
+    "devDependencies": {
+      "babel-preset-expo": "^7.0.0"
+    },
+    "dependencies": {
+      "expo": "^36.0.0",
+      "react": "16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+      "react-native-paper": "3.6.0",
+      "@react-navigation/stack": "latest",
+      "@react-native-community/masked-view": "^0.1.0",
+      "@react-navigation/native": "5.0.5",
+      "react-native-safe-area-context": "^0.6.0",
+      "react-native-screens": "^2.0.0",
+      "expo-mail-composer": "~8.0.0",
+      "axios": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

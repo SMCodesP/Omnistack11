@@ -1,6 +1,6 @@
-import connection from '../database/connection.js';
+const connection = require('../database/connection.js');
 
-export default {
+module.exports = {
   async index(req, res) {
     const { page = 1 } = req.query;
 
